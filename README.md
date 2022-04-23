@@ -1,17 +1,18 @@
+It's a NestJs RestAPI project
 
  #### Ingredients
 
 * NestJs (NodeJs framework on top of Express)
 * Typescript
-* MongoDB & Mongoose
 * JWT Authentication
+* MongoDB & Mongoose
 
 
 ## Installation
  
 1. Clone the repo
    ```bash
-   $ https://github.com/syedfawzulazim/syed-fawzul-azim.git
+   $ https://github.com/syedfawzulazim/nestjs_restapi.git
    ```
 
 2. Run with Docker Container
