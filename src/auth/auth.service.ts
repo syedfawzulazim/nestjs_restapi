@@ -28,7 +28,7 @@ export class AuthService {
         throw new HttpException('Email Address Taken...', HttpStatus.CONFLICT);
       }
 
-      //hash password
+      //hashed password
       const hash = await argon.hash(dto.password);
 
       //create user to DB
