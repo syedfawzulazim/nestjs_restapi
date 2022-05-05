@@ -14,7 +14,7 @@ import { PurchaseModule } from './purchase/purchase.module';
     UserModule,
     PurchaseModule,
     MongooseModule.forRoot(
-      'mongodb+srv://adnansparrow:asdasdx@cluster01.b7yso.mongodb.net/BookkeepingDB?retryWrites=true&w=majority',
+      'mongodb+srv://adnansparrow:<password>@cluster01.b7yso.mongodb.net/BookkeepingDB?retryWrites=true&w=majority',
     ),
     PurchaseModule,
   ],
